@@ -8,7 +8,7 @@ The game features two agents — a **Rogue** and a **Monster** — navigating a 
 ## Features
 
 * Turn-based simulation between Monster and Rogue
-* Visualized dungeon display in the terminal
+* Visualized dungeon display in the terminal shown below ('@' represents for rouge, A-Z represents for monster, and '.' is the path that both can go through)
 * Dynamic dungeon layout parsing from `.txt` files
 * Rogue strategy:
 
@@ -17,7 +17,7 @@ The game features two agents — a **Rogue** and a **Monster** — navigating a 
 * Monster strategy:
 
   * BFS with Manhattan-distance optimization to track the rogue
-* Supports different speed settings via CLI ('@' represents for rouge, A-Z represents for monster, and '.' is the path that both can go through)
+* Supports different speed settings via CLI
 
 
 ![image](https://github.com/user-attachments/assets/43c1182c-5045-4d20-adb2-00f10a85a188)
