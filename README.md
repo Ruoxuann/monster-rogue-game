@@ -3,9 +3,9 @@
 A Java-based simulation game that explores **graph traversal**, **OOP design**, and **pathfinding (BFS & DFS)** in a dungeon setting.
 The game features two agents — a **Rogue** and a **Monster** — navigating a grid-based dungeon, where the monster attempts to catch the rogue, and the rogue tries to escape using dynamic strategies based on dungeon structure.
 
----
 
-## 📌 Features
+
+## Features
 
 * Turn-based simulation between Monster and Rogue
 * Visualized dungeon display in the terminal
@@ -17,11 +17,14 @@ The game features two agents — a **Rogue** and a **Monster** — navigating a 
 * Monster strategy:
 
   * BFS with Manhattan-distance optimization to track the rogue
-* Supports different speed settings via CLI
+* Supports different speed settings via CLI ('@' represents for rouge, A-Z represents for monster, and '.' is the path that both can go through)
 
----
 
-## 💡 Game Mechanics
+![image](https://github.com/user-attachments/assets/43c1182c-5045-4d20-adb2-00f10a85a188)
+
+
+
+## Game Mechanics
 
 * The Rogue and Monster move alternately.
 * Movement is restricted to adjacent cells (no diagonal walls).
@@ -30,7 +33,7 @@ The game features two agents — a **Rogue** and a **Monster** — navigating a 
 
 ---
 
-## 🧱 Technologies Used
+## Technologies Used
 
 | Category       | Stack                                                 |
 | -------------- | ----------------------------------------------------- |
@@ -39,7 +42,7 @@ The game features two agents — a **Rogue** and a **Monster** — navigating a 
 | Algorithms     | BFS, DFS, Manhattan Distance                          |
 | Environment    | Command-Line Interface / IntelliJ IDEA                |
 
----
+
 
 ## 🛠️ How to Run
 
@@ -60,11 +63,11 @@ java Game Dungeons/111.txt 100
 
 ⚠️ Note: ANSI escape codes used for screen refresh may not work properly in **Windows cmd**. Recommend using Linux/macOS terminal or IntelliJ.
 
----
 
-## 📁 Folder Structure
 
-```
+## Folder Structure
+
+
 project-root/
 ├── Dungeons/              # Sample dungeon maps (.txt)
 ├── Game.java              # Main class and loop control
