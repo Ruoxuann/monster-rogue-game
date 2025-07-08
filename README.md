@@ -31,7 +31,6 @@ The game features two agents — a **Rogue** and a **Monster** — navigating a 
 * Rogue uses loop detection and distance calculations to maximize escape time.
 * Monster always tries to take the shortest path, and wanders randomly if none exists.
 
----
 
 ## Technologies Used
 
@@ -61,13 +60,13 @@ java Game Dungeons/111.txt 100
 * The second parameter `100` controls display speed (ms).
 * Default dungeon: `Dungeons/333.txt`.
 
-⚠️ Note: ANSI escape codes used for screen refresh may not work properly in **Windows cmd**. Recommend using Linux/macOS terminal or IntelliJ.
+⚠️ Note: ANSI escape codes used for screen refresh may not work properly in **Windows cmd**. Recommend using Linux/macOS terminal.
 
 
 
 ## Folder Structure
 
-
+```
 project-root/
 ├── Dungeons/              # Sample dungeon maps (.txt)
 ├── Game.java              # Main class and loop control
